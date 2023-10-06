@@ -1,9 +1,12 @@
+import Banner from "../../Components/Header/Banner/Banner";
+import Navbar from "../../Components/Header/Navbar";
 
 
 const Home = () => {
     return (
-        <div>
-            <h2 className="text-3xl">this is home</h2>
+        <div className="container mx-auto h-screen">
+           <Navbar></Navbar>
+           <Banner></Banner>
         </div>
     );
 };
