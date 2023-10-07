@@ -199,9 +199,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           {
-            user? <button className="w-[100px] h-[40px] bg-[#99627A] text-white text-bold rounded hover:bg-[#C88EA7]">Sign Out</button>
+            user? <div className="flex flex-col-reverse md:flex-row items-center gap-2">
+              <p>{user.email}</p>
+              <button onClick={handleSignOut} className="w-[100px] h-[40px] bg-[#99627A] text-white text-bold rounded hover:bg-[#C88EA7]">Sign Out</button>
+            </div>
             : 
-            <Link onClick={handleSignOut} to='/login'><button className="w-[100px] h-[40px] bg-[#99627A] text-white text-bold rounded hover:bg-[#C88EA7]">Login</button></Link>
+            <Link  to='/login'><button className="w-[100px] h-[40px] bg-[#99627A] text-white text-bold rounded hover:bg-[#C88EA7]">Login</button></Link>
           }
            
 

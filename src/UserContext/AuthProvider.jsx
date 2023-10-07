@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import PropTypes from 'prop-types';
-import { createUserWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import auth from "../Firebase/Firebase.config";
 
 export const AuthContext = createContext(null);
@@ -12,6 +12,12 @@ const AuthProvider = ({children}) => {
     const createUser = (email,password) =>
     {
         return createUserWithEmailAndPassword(auth,email,password);
+    }
+
+    // for signin
+    const signIn = (email,password) => 
+    {
+        return signInWithEmailAndPassword(auth,email,password);
     }
 
     //current user state observe korbo
@@ -34,7 +40,7 @@ const AuthProvider = ({children}) => {
     }
 
 
-    const authInfo = {user, createUser, logOut};
+    const authInfo = {user, createUser, logOut, signIn};
     return (
         <div>
             <AuthContext.Provider value={authInfo}>

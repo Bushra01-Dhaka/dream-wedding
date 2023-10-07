@@ -47,19 +47,19 @@ const Register = () => {
     createUser(email, password)
       .then((result) => {
         console.log(result.user);
-        setSuccess("Logged in successfully.");
+        setSuccess("Successfully Registered.");
 
         // toast show korlam
-        swal("Logged In Successfully!", {
+        swal("Successfully Registered.", {
             button: "Ok",
 
           });
       })
       .catch((error) => {
         console.error(error);
-         setRegisterError("Failed to Login!")
+         setRegisterError("Failed to Register!")
         //error toast 
-        swal("Failed to Login!", {
+        swal("Failed to Register!", {
             button: "Ok",
 
           });
