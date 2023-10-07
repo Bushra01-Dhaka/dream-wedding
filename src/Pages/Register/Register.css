@@ -1,13 +1,13 @@
 .swal-button {
     padding: 7px 19px;
     border-radius: 2px;
-    background-color: #1a1818;
+    background-color: #99627A;
     font-size: 12px;
     
   }
 
   .swal-button.swal-button--confirm:hover {
-    background-color: black ;
+    background-color: #643843 ;
   }
   .swal-text {
     
