@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 const PrivateRoutes = ({children}) => {
     const {user, loading} = useContext(AuthContext);
     const location = useLocation();
-    console.log(location);
+    console.log(location.pathname);
     if(loading)
     {
         return <div className="h-screen flex justify-center items-center"><RotatingLines
@@ -22,7 +22,7 @@ const PrivateRoutes = ({children}) => {
     {
         return children ;
     }
-    return <Navigate to='/login'></Navigate>
+    return <Navigate state={location.pathname} to='/login'></Navigate>
 };
 
 PrivateRoutes.propTypes = {

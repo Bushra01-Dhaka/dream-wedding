@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../../Components/Header/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../UserContext/AuthProvider";
@@ -9,7 +9,11 @@ const Login = () => {
   const { signIn } = useContext(AuthContext);
   const [logInError, setLogInError] = useState("");
   const [success, setSuccess] = useState("");
-  
+  const navigate = useNavigate();
+
+
+  const location = useLocation();
+  console.log("In login page location",location);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -26,6 +30,10 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         console.log(result.user);
+        //after login jekhane jabo
+        navigate(location?. state? location.state  : '/')
+
+
         setSuccess("Logged In Successfully.");
         swal("Logged In Successfully.", {
           button: "Ok",
