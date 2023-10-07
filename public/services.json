@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "service_title": "Elegant Wedding Decor",
+      "service_description": "Transform your wedding venue into an elegant masterpiece with our stunning decor services.",
+      "cover_photo": "https://i.ibb.co/9y9wG3D/elegent-cover.jpg",
+      "images": {
+        "image_1": "https://i.ibb.co/9y9wG3D/elegent-cover.jpg",
+        "image_2": "https://i.ibb.co/Vj8GxWb/ele-2.jpg",
+        "image_3": "image3.jpg",
+        "image_4": "image4.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "service_title": "Catering Extravaganza",
+      "service_description": "Delight your guests with our exquisite catering services, offering a variety of cuisines.",
+      "cover_photo": "https://i.ibb.co/mqK7dCF/table.jpg",
+      "images": {
+        "image_1": "image5.jpg",
+        "image_2": "image6.jpg",
+        "image_3": "image7.jpg",
+        "image_4": "image8.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "service_title": "Photography & Videography",
+      "service_description": "Capture every special moment with our professional photography and videography services.",
+      "cover_photo": "https://i.ibb.co/2Kcjv57/photography2.jpg",
+      "images": {
+        "image_1": "https://i.ibb.co/bg70GdD/photography.jpg",
+        "image_2": "https://i.ibb.co/bg70GdD/photography.jpg",
+        "image_3": "https://i.ibb.co/2Kcjv57/photography2.jpg",
+        "image_4": "image12.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "service_title": "Floral Arrangements",
+      "service_description": "Adorn your wedding venue with beautiful floral arrangements and bouquets.",
+      "cover_photo": "https://i.ibb.co/KjqpGBG/standing-flower.jpg",
+      "images": {
+        "image_1": "https://i.ibb.co/7Ymwyrd/flower2.jpg",
+        "image_2": "https://i.ibb.co/DLJqfCW/floral.jpg",
+        "image_3": "https://i.ibb.co/KjqpGBG/standing-flower.jpg",
+        "image_4": "image16.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "service_title": "Live Entertainment",
+      "service_description": "Add excitement to your celebration with live music, bands, and entertainers.",
+      "cover_photo": "https://i.ibb.co/jkRbN03/family.jpg",
+      "images": {
+        "image_1": "image17.jpg",
+        "image_2": "image18.jpg",
+        "image_3": "image19.jpg",
+        "image_4": "image20.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "service_title": "Wedding Planning Services",
+      "service_description": "Let our experienced wedding planners take care of all the details, so you can relax and enjoy your special day.",
+      "cover_photo": "https://i.ibb.co/pvNT0LV/planning.jpg",
+      "images": {
+        "image_1": "https://i.ibb.co/pvNT0LV/planning.jpg",
+        "image_2": "image22.jpg",
+        "image_3": "image23.jpg",
+        "image_4": "image24.jpg"
+      }
+    }
+  ]
+  

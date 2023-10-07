@@ -6,8 +6,9 @@ h1{
     font-family: 'Playfair Display SC', serif;
 }
 
-p{
-    font-family: 'Montserrat', sans-serif;
+p
+{
+    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Oxygen', sans-serif;
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Playfair Display SC', serif; */
 }

@@ -40,23 +40,11 @@ const Banner = () => {
       </div>
       <div className="keen-slider__slide number-slide4">
       <img
-            src="https://i.ibb.co/GdwXFWV/together.jpg"
+            src="https://i.ibb.co/6bZr9pZ/inspiration.jpg"
             className="w-full  h-[90vh] object-cover"
           />
       </div>
-{/* 
-     <div className="keen-slider__slide number-slide5">
-      <img
-            src="https://i.ibb.co/GdwXFWV/together.jpg"
-            className="w-full  h-[90vh] object-cover"
-          />
-      </div>
-      <div className="keen-slider__slide number-slide6">
-      <img
-            src="https://i.ibb.co/GdwXFWV/together.jpg"
-            className="w-full  h-[90vh] object-cover"
-          />
-      </div> */}
+
 
 
     </div>
