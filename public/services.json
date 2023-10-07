@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "service_title": "Elegant Wedding Decor",
+      "service_title": "Elegant Wedding Decor & Venue",
       "service_description": "Transform your wedding venue into an elegant masterpiece with our stunning decor services.",
       "cover_photo": "https://i.ibb.co/9y9wG3D/elegent-cover.jpg",
       "images": {
@@ -9,7 +9,8 @@
         "image_2": "https://i.ibb.co/Vj8GxWb/ele-2.jpg",
         "image_3": "image3.jpg",
         "image_4": "image4.jpg"
-      }
+      },
+      "average_price": "8000$ ~ 15000$"
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@
         "image_2": "image6.jpg",
         "image_3": "image7.jpg",
         "image_4": "image8.jpg"
-      }
+      },
+      "average_price": "5000$ ~ 8000$"
     },
     {
       "id": 3,
@@ -33,7 +35,8 @@
         "image_2": "https://i.ibb.co/bg70GdD/photography.jpg",
         "image_3": "https://i.ibb.co/2Kcjv57/photography2.jpg",
         "image_4": "image12.jpg"
-      }
+      },
+      "average_price": "2000$ ~ 4000$"
     },
     {
       "id": 4,
@@ -45,31 +48,34 @@
         "image_2": "https://i.ibb.co/DLJqfCW/floral.jpg",
         "image_3": "https://i.ibb.co/KjqpGBG/standing-flower.jpg",
         "image_4": "image16.jpg"
-      }
+      },
+      "average_price": "2000$ ~ 4000$ "
     },
     {
       "id": 5,
-      "service_title": "Live Entertainment",
+      "service_title": "Live Music Event",
       "service_description": "Add excitement to your celebration with live music, bands, and entertainers.",
-      "cover_photo": "https://i.ibb.co/jkRbN03/family.jpg",
+      "cover_photo": "https://i.ibb.co/vmzMSLn/music.jpg",
       "images": {
-        "image_1": "image17.jpg",
-        "image_2": "image18.jpg",
-        "image_3": "image19.jpg",
+        "image_1": "https://i.ibb.co/jVqkrTH/song1.jpg",
+        "image_2": "https://i.ibb.co/vmzMSLn/music.jpg",
+        "image_3": "https://i.ibb.co/7WysTJG/song3.jpg",
         "image_4": "image20.jpg"
-      }
+      },
+      "average_price": "1000$ ~ 2000$"
     },
     {
       "id": 6,
-      "service_title": "Wedding Planning Services",
-      "service_description": "Let our experienced wedding planners take care of all the details, so you can relax and enjoy your special day.",
-      "cover_photo": "https://i.ibb.co/pvNT0LV/planning.jpg",
+      "service_title": "Wedding Cake",
+      "service_description": "Indulge in our delectable wedding cake creations that are sure to delight your taste buds.",
+      "cover_photo": "https://i.ibb.co/njMBhDy/cake.jpg",
       "images": {
-        "image_1": "https://i.ibb.co/pvNT0LV/planning.jpg",
-        "image_2": "image22.jpg",
-        "image_3": "image23.jpg",
+        "image_1": "https://i.ibb.co/njMBhDy/cake.jpg",
+        "image_2": "https://i.ibb.co/njMBhDy/cake.jpg",
+        "image_3": "https://i.ibb.co/njMBhDy/cake.jpg",
         "image_4": "image24.jpg"
-      }
+      },
+      "average_price": "500$ ~ 2000$"
     }
   ]
   

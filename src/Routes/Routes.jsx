@@ -3,6 +3,9 @@ import Error from "../Pages/Error/Error";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/About/AboutUs";
+import ServiceDetails from "../Pages/Service/ServiceDetails";
+import Register from "../Pages/Register/Register";
+import Login from "../Pages/Login/Login";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +21,19 @@ const router = createBrowserRouter([
         {
           path: '/about',
           element: <AboutUs></AboutUs>
+        },
+        {
+          path:'/services/:id',
+          element:<ServiceDetails></ServiceDetails>,
+          loader: () => fetch('/services.json')
+        },
+        {
+          path:'/register',
+          element:<Register></Register>
+        },
+        {
+          path:'/login',
+          element: <Login></Login>
         }
       ]
     },

@@ -9,7 +9,7 @@ const About = () => {
   }, []);
   return (
     <div className="container mx-auto mt-24 ">
-      <h1 className="text-center text-3xl mb-6 font-medium text-[#99627A] ">
+      <h1 className="text-center text-2xl mb-6 font-medium text-[#99627A] ">
         You deserve the best. <br></br> And Your love deserve the most beautiful
         celebration
       </h1>
@@ -39,7 +39,7 @@ const About = () => {
             {`clients'`} requirements, allowing them to enjoy a stress-free wedding
             planning process. To perform our high-standard wedding planning services, we also rely on our staff of qualified international coordinators. Dream Wedding is available for worldwide wedding planning.
           </p>
-          <Link to='/about'><button className="btn  mt-4 w-[140px] h-[44px] bg-[#99627A] hover:bg-[#643843] rounded text-white font-medium ">Learn More</button></Link>
+          <Link to='/about'><button className="btn mx-4 lg:mx-0 mt-4 w-[140px] h-[44px] bg-[#99627A] hover:bg-[#643843] rounded text-white font-medium ">Learn More</button></Link>
         </div>
       </div>
     </div>

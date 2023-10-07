@@ -2,6 +2,7 @@ import Navbar from "../../Components/Header/Navbar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "../../Components/Footer/Footer";
 
 
 
@@ -73,6 +74,8 @@ const AboutUs = () => {
 
         </div>
       </div>
+
+      <Footer></Footer>
     </div>
   );
 };
