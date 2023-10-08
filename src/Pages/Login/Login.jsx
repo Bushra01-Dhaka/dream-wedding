@@ -3,10 +3,10 @@ import Navbar from "../../Components/Header/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../UserContext/AuthProvider";
 import swal from "sweetalert";
-
+import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const { signIn, googleSignIn } = useContext(AuthContext);
   const [logInError, setLogInError] = useState("");
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
@@ -48,11 +48,37 @@ const Login = () => {
       });
   };
 
+  
+      //google sign in handle fnction
+      const handleGoogleSignIN = () =>
+      {
+        googleSignIn()
+        .then(result => {
+            console.log(result.user);
+            navigate(location?. state? location.state  : '/');
+
+            setSuccess("Logged In Successfully.");
+            swal("Logged In Successfully.", {
+              button: "Ok",
+            });
+
+        })
+        .catch(error => {
+            console.error(error);
+            setLogInError("Failed to Login!");
+        swal("Logged in failed!", {
+          button: "Ok",
+        });
+        })
+      };
+
+ 
+
   return (
     <div>
       <Navbar></Navbar>
 
-      <div className="relative h-[120vh] lg:[100vh]">
+      <div className="relative h-[140vh] lg:[100vh]">
         {/*amar Video Background */}
         <video
           className="w-full h-full object-cover"
@@ -111,6 +137,17 @@ const Login = () => {
                   Login
                 </button>
               </div>
+
+             {/* google sign in */}
+              <div className="mt-8 mb-4"> 
+                <hr />
+                <h3 className="text-xl text-white text-center my-2">Or</h3>
+                <div className="mx-auto">
+                <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
+                <button onClick={handleGoogleSignIN} className="btn w-full mx-auto text-[#643843]  rounded ">Continue With Google</button>
+                </div>
+            </div>
+
             </form>
 
             {logInError && (
@@ -133,6 +170,10 @@ const Login = () => {
                 Register
               </Link>{" "}
             </p>
+
+            
+
+
           </div>
         </div>
       </div>

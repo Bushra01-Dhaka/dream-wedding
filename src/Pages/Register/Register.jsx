@@ -1,14 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../../Components/Header/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../UserContext/AuthProvider";
 import swal from "sweetalert";
 import './Register.css'
+import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, googleSignIn } = useContext(AuthContext);
   const [registerError, setRegisterError] = useState("");
   const [success, setSuccess] = useState("");
+  const navigate = useNavigate();
+
+  const location = useLocation();
+  console.log("register page location",location);
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -48,6 +53,8 @@ const Register = () => {
       .then((result) => {
         console.log(result.user);
         setSuccess("Successfully Registered.");
+        //navigate korbe
+        navigate(location && '/');
 
         // toast show korlam
         swal("Successfully Registered.", {
@@ -65,8 +72,31 @@ const Register = () => {
           });
       });
 
-
   };
+
+  const handleGoogleSignIN = () =>
+  {
+    googleSignIn()
+    .then(result => {
+        console.log(result.user);
+        //navigate korlam
+        navigate(location && '/');
+
+        setSuccess("Logged In Successfully.");
+        swal("Logged In Successfully.", {
+          button: "Ok",
+        });
+
+    })
+    .catch(error => {
+        console.error(error);
+        setRegisterError("Failed to Login!");
+    swal("Logged in failed!", {
+      button: "Ok",
+    });
+    })
+  };
+
 
   return (
     <div className="bg-[#FFF3DA]">
@@ -139,7 +169,28 @@ const Register = () => {
               Register
             </button>
           </div>
+
+          {/* google register */}
+          {/* <div className="mt-8 mb-4"> 
+                <hr className="border-b-1 border-[#643843]"/>
+                <h3 className="text-xl text-black text-center my-2">Or</h3>
+                <div className="mx-auto">
+                <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
+                <button onClick={handleGoogleSignIN} className="btn w-full mx-auto border-2 border-[#643843] text-[#643843]  rounded ">Continue With Google</button>
+                </div>
+            </div> */}
         </form>
+
+         <div className="md:w-3/2 lg:w-1/2 mx-auto">
+         <div className="mt-8 mb-4"> 
+                <hr className="border-b-1 border-[#643843]"/>
+                <h3 className="text-xl text-black text-center my-2">Or</h3>
+                <div className="mx-auto">
+                <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
+                <button onClick={handleGoogleSignIN} className="btn w-full mx-auto border-2 border-[#643843] text-[#643843]  rounded ">Continue With Google</button>
+                </div>
+            </div>
+         </div>
 
         {registerError && (
           <p className=" my-2 text-sm text-center font-semibold text-red-700">{registerError}</p>
