@@ -3,6 +3,7 @@ import Navbar from "../../Components/Header/Navbar";
 import DestinationCard from "./DestinationCard";
 import DestinationDetals from "./DestinationDetals";
 import Footer from "../../Components/Footer/Footer";
+import ContactUs from "../../Components/ContactUs/ContactUs";
 
 const Destination = () => {
   const [cards, setCards] = useState([]);
@@ -21,10 +22,10 @@ const Destination = () => {
       <div>
         <div className="grid-cols-1 md:grid-cols-2 gap-6">
           <div className="my-6 ">
-            <h1 className="text-xl md:text-2xl lg:text-5xl text-center ">
+            <h1 className="text-xl font-bold md:text-2xl lg:text-5xl text-center ">
               Destination Weeding In Europe
             </h1>
-            <p className="w-[70%] my-6 mx-auto text-center">
+            <p className="md:w-[70%] my-6 mx-auto text-center">
               Not much could be more romantic than a destination wedding in
               Europe, a continent full of history, including the location of
               some of the greatest love stories of all time. Whether you dream
@@ -50,6 +51,8 @@ const Destination = () => {
           </div>
 
         </div>
+
+        <ContactUs></ContactUs>
 
         <Footer></Footer>
       </div>

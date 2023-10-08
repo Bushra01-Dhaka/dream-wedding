@@ -18,7 +18,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto py-2">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -200,7 +200,9 @@ const Navbar = () => {
         <div className="navbar-end">
           {
             user? <div className="flex flex-col-reverse md:flex-row items-center gap-2">
-              <p>{user.email}</p>
+              <div className="flex items-center"><img className="w-[40px] h-[40px] rounded-[40px]" src={user.photoURL} alt="" />
+              <p className="text-[12px]">{user.email}</p>
+              </div>
               <button onClick={handleSignOut} className="w-[100px] h-[40px] bg-[#99627A] text-white text-bold rounded hover:bg-[#C88EA7]">Sign Out</button>
             </div>
             : 
