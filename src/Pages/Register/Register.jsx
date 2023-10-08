@@ -143,18 +143,6 @@ const Register = () => {
             />
           </div>
 
-          <div className="form-control">
-            <label className="label">
-              <span className="label-text font-bold">Confirm Password</span>
-            </label>
-            <input
-              type="password"
-              name="confirmPassword"
-              placeholder="password"
-              className="input input-bordered"
-              required
-            />
-          </div>
 
           <input className="my-6" type="checkbox" name="terms" id="terms" />
           <label className="ml-2 py-4 font-bold" htmlFor="terms">

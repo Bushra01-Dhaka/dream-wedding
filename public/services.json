@@ -7,10 +7,11 @@
       "images": {
         "image_1": "https://i.ibb.co/9y9wG3D/elegent-cover.jpg",
         "image_2": "https://i.ibb.co/Vj8GxWb/ele-2.jpg",
-        "image_3": "image3.jpg",
+        "image_3": "https://i.ibb.co/B3hQtF6/elegent4.jpg",
         "image_4": "image4.jpg"
       },
-      "average_price": "8000$ ~ 15000$"
+      "average_price": "8000$ ~ 15000$",
+      "details_description": "Our wedding decor services are designed to turn your dream wedding into a breathtaking reality. We pay meticulous attention to every detail, from selecting the finest materials to creating customized decor that reflects your unique style and theme. Our team of experienced decorators works closely with you to understand your vision and brings it to life. From elegant centerpieces to stunning floral arrangements, we ensure that every element of your decor harmonizes seamlessly to create a visually stunning ambiance that will leave a lasting impression on your guests. Whether you're planning an intimate gathering or a grand celebration, our decor services will transform your wedding venue into a magical and romantic setting that you and your guests will cherish forever."
     },
     {
       "id": 2,
@@ -18,12 +19,13 @@
       "service_description": "Delight your guests with our exquisite catering services, offering a variety of cuisines.",
       "cover_photo": "https://i.ibb.co/mqK7dCF/table.jpg",
       "images": {
-        "image_1": "image5.jpg",
-        "image_2": "image6.jpg",
-        "image_3": "image7.jpg",
+        "image_1": "https://i.ibb.co/wK2kLCk/table1.jpg",
+        "image_2": "https://i.ibb.co/WHcpvxb/table2.jpg",
+        "image_3": "https://i.ibb.co/mqK7dCF/table.jpg",
         "image_4": "image8.jpg"
       },
-      "average_price": "5000$ ~ 8000$"
+      "average_price": "5000$ ~ 8000$",
+      "details_description": "Our catering services are designed to elevate your wedding dining experience to a whole new level. We offer a diverse range of cuisines, from mouthwatering appetizers to delectable main courses and desserts, all prepared by our team of skilled chefs using the freshest ingredients. We take pride in creating a menu that caters to your unique preferences and dietary requirements, ensuring that every guest enjoys a memorable culinary journey. Our attentive staff ensures that your guests are served with professionalism and warmth, making your wedding reception a gastronomic delight. Whether you're planning a buffet-style meal or an elegant plated dinner, our catering team will work closely with you to curate a menu that reflects your taste and style, making your wedding feast a truly unforgettable experience."
     },
     {
       "id": 3,
@@ -31,12 +33,13 @@
       "service_description": "Capture every special moment with our professional photography and videography services.",
       "cover_photo": "https://i.ibb.co/2Kcjv57/photography2.jpg",
       "images": {
-        "image_1": "https://i.ibb.co/bg70GdD/photography.jpg",
-        "image_2": "https://i.ibb.co/bg70GdD/photography.jpg",
+        "image_1": "https://i.ibb.co/GdwXFWV/together.jpg",
+        "image_2": "https://i.ibb.co/jWhhzsW/ph1.jpg",
         "image_3": "https://i.ibb.co/2Kcjv57/photography2.jpg",
         "image_4": "image12.jpg"
       },
-      "average_price": "2000$ ~ 4000$"
+      "average_price": "2000$ ~ 4000$",
+      "details_description": "Our photography and videography services are dedicated to preserving the beautiful memories of your wedding day. Our team of skilled photographers and videographers use state-of-the-art equipment and techniques to capture every precious moment, from the emotions on your faces to the intricate details of your decor. We understand the importance of storytelling and aim to create a visual narrative that reflects the essence of your love story. Whether you prefer classic, candid, or artistic styles, we customize our approach to suit your preferences. With an unobtrusive and professional presence, we ensure that you can relive the joy and romance of your wedding day through stunning photographs and cinematic videos that will be cherished for generations to come."
     },
     {
       "id": 4,
@@ -45,11 +48,12 @@
       "cover_photo": "https://i.ibb.co/KjqpGBG/standing-flower.jpg",
       "images": {
         "image_1": "https://i.ibb.co/7Ymwyrd/flower2.jpg",
-        "image_2": "https://i.ibb.co/DLJqfCW/floral.jpg",
+        "image_2": "https://i.ibb.co/4mwYGnV/flower-gate.jpg",
         "image_3": "https://i.ibb.co/KjqpGBG/standing-flower.jpg",
         "image_4": "image16.jpg"
       },
-      "average_price": "2000$ ~ 4000$ "
+      "average_price": "2000$ ~ 4000$ ",
+      "details_description": "Our floral arrangements are designed to infuse natural beauty and elegance into your wedding venue. We work closely with you to understand your color palette, theme, and personal style, ensuring that our floral creations align perfectly with your vision. From stunning centerpieces to bridal bouquets that make a statement, our team of skilled florists carefully selects and arranges each bloom to create exquisite arrangements. Whether you prefer classic roses, wildflowers, or exotic blooms, we source the finest flowers to bring your vision to life. Our goal is to elevate the ambiance of your wedding with the enchanting fragrance and visual appeal of fresh flowers, adding a touch of romance and sophistication to your special day."
     },
     {
       "id": 5,
@@ -62,20 +66,22 @@
         "image_3": "https://i.ibb.co/7WysTJG/song3.jpg",
         "image_4": "image20.jpg"
       },
-      "average_price": "1000$ ~ 2000$"
+      "average_price": "1000$ ~ 2000$",
+      "details_description": "Our live music events are designed to elevate the entertainment factor of your wedding celebration. We believe that music is the heartbeat of any event, and our talented musicians and entertainers are dedicated to creating an unforgettable experience for you and your guests. Whether you envision a live band playing your favorite tunes, a solo artist serenading you, or a DJ keeping the dance floor alive, we customize the musical entertainment to match your preferences and set the perfect mood. Our performers are not just musicians; they are entertainers who engage with your audience, ensuring that every moment is filled with energy and excitement. Let us add a magical and melodious touch to your wedding celebration that will have everyone on their feet and dancing the night away."
     },
     {
       "id": 6,
       "service_title": "Wedding Cake",
       "service_description": "Indulge in our delectable wedding cake creations that are sure to delight your taste buds.",
-      "cover_photo": "https://i.ibb.co/njMBhDy/cake.jpg",
+      "cover_photo": "https://i.ibb.co/R75gxPc/cake2.jpg",
       "images": {
-        "image_1": "https://i.ibb.co/njMBhDy/cake.jpg",
+        "image_1": "https://i.ibb.co/7Y578zm/cake4.jpg",
         "image_2": "https://i.ibb.co/njMBhDy/cake.jpg",
-        "image_3": "https://i.ibb.co/njMBhDy/cake.jpg",
+        "image_3": "https://i.ibb.co/R75gxPc/cake2.jpg",
         "image_4": "image24.jpg"
       },
-      "average_price": "500$ ~ 2000$"
+      "average_price": "500$ ~ 2000$",
+      "details_description": "Our wedding cake creations are a sweet and delicious highlight of your special day. We understand that the wedding cake is not just a dessert; it's a symbol of celebration and joy. Our talented pastry chefs craft each cake with precision and artistry, using the finest ingredients to create a masterpiece that not only looks stunning but also tastes heavenly. Whether you envision a classic tiered cake, a modern fondant design, or a rustic naked cake, we work with you to design a cake that reflects your style and theme. From flavors and fillings to decorative details, we ensure that your wedding cake is a reflection of your love story"
     }
   ]
   
