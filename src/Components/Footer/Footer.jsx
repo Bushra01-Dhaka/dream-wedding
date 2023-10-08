@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="container mx-auto footer p-10 text-white ">
         <aside>
           <Link to="/" className="px-4">
-            <h1 className="text-sm md:text-xl font-bold">Dream Wedding</h1>
+            <h1 className="text-xl text-center md:text-justify md:text-xl font-bold">Dream Wedding</h1>
             <p className="md:text-center font-bold text-[12px]">
               Est. 2020
             </p>

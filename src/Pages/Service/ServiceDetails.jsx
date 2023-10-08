@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import Navbar from "../../Components/Header/Navbar";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -27,15 +27,6 @@ const ServiceDetails = () => {
     <div>
       <Navbar></Navbar>
       <div>
-        {/* <h1 className="text-3xl text-center">{service_title}</h1>
-                <p className="text-center">{service_description}</p>
-                
-                <div className="grid grid-cols-3 gap-6">
-                <img className="h-[500px] w-[500px]" src={cover_photo} alt="" />
-                <img className="h-[500px] w-[500px]" src={images.image_1} alt="" />
-                <img className="h-[500px] w-[500px]" src={images.image_2} alt="" />
-                </div> */}
-
         <div className="hero min-h-[80vh] bg-base-200">
           <div className="hero-content text-center">
             <div data-aos="fade-top " data-aos-delay="300" className="max-w-lg">
@@ -66,7 +57,7 @@ const ServiceDetails = () => {
           </div>
         </div>
 
-        <div className="container mx-auto my-24">
+        <div className="container mx-auto my-28">
           <h1
             data-aos="fade-up "
             data-aos-delay="500"
@@ -76,12 +67,46 @@ const ServiceDetails = () => {
             {service_title} PROJECTS SO FAR
           </h1>
 
-          <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"  className="grid grid-cols-3 gap-6 my-8">
-            <img className="h-[400px] w-[500px] rounded" src={images.image_1} alt="" />
-            <img className="h-[400px] w-[500px] rounded" src={images.image_2} alt="" />
-            <img className="h-[400px] w-[500px] rounded" src={images.image_3} alt="" />
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 lg:px-0 gap-6 my-8"
+          >
+            <img
+              className="h-[400px] w-[500px] rounded"
+              src={images.image_1}
+              alt=""
+            />
+            <img
+              className="h-[400px] w-[500px] rounded"
+              src={images.image_2}
+              alt=""
+            />
+            <img
+              className="h-[400px] w-[500px] rounded"
+              src={images.image_3}
+              alt=""
+            />
           </div>
         </div>
+
+        <div className="hero bg-[#E7CBCB] py-8">
+          <div className="hero-content container mx-auto text-center">
+            <div data-aos="fade-left " data-aos-delay="500" className="max-w-md">
+              <h1 className="text-center text-3xl">
+                Are You Looking for Destination Wedding Plan?
+              </h1>
+              <Link to="/destination">
+                <button className="btn my-6 text-[#643843]">
+                  Explore our packages
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        
       </div>
 
       <Footer></Footer>

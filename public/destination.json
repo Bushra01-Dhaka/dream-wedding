@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "country_name": "Rome",
+      "description": "Rome, often referred to as the 'Eternal City,' is a captivating destination for your dream destination wedding. With its rich history, enchanting architecture, and timeless romance, Rome offers an unparalleled backdrop for your special day. Imagine exchanging vows in the shadow of the Colosseum, with ancient history as your witness. The city's cobblestone streets lead you to hidden gems like the Trevi Fountain, where you can toss a coin for good luck in your marriage. Feast on delectable Italian cuisine at charming trattorias, savoring every moment with your loved ones. Rome's warm Mediterranean climate ensures pleasant weather for outdoor ceremonies and receptions. As you celebrate your love story in Rome, you'll be surrounded by iconic landmarks, from the Vatican City to the Roman Forum, creating unforgettable memories. Whether you choose a historic villa, a rooftop terrace, or a quaint church as your venue, Rome promises a romantic and timeless experience. The average cost of a destination wedding in Rome typically ranges from $25,000 to $40,000. Browse through our gallery of stunning Rome wedding images to envision your perfect day in the Eternal City.",
+      "average_cost": "$25,000 - $40,000",
+      "images": {
+        "image_1": "https://i.ibb.co/YLRCm1n/rome2.jpg",
+        "image_2": "rome_wedding_2.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "country_name": "Paris",
+      "description": "Paris, often called the 'City of Love,' beckons you to embark on a romantic journey as you celebrate your destination wedding in this enchanting metropolis. With its iconic landmarks, world-class cuisine, and a timeless ambiance, Paris offers an unparalleled backdrop for your special day. Picture saying 'I do' with the Eiffel Tower as your witness, its sparkling lights adding magic to the moment. Stroll along the Seine River hand in hand, savoring the beauty of this romantic city. Indulge in gourmet French cuisine at renowned restaurants, treating your guests to a culinary delight. Paris, with its mild climate, is perfect for outdoor ceremonies and receptions in charming gardens or historic châteaux. The city's artistic and cultural heritage adds a touch of sophistication to your wedding festivities. The average cost of a destination wedding in Paris typically ranges from $30,000 to $50,000. Explore our gallery of captivating Parisian wedding images to envision your fairy tale wedding in the City of Love.",
+      "average_cost": "$30,000 - $50,000",
+      "images": {
+        "image_1": "https://i.ibb.co/nn9rwvQ/paris.jpg",
+        "image_2": "paris_wedding_2.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "country_name": "Ireland",
+      "description": "Ireland, with its lush landscapes, historic castles, and warm hospitality, offers an enchanting setting for your destination wedding. This charming country is known for its rolling green hills, rugged coastline, and a sense of magic that envelops every corner. Imagine exchanging vows in the courtyard of a centuries-old castle or overlooking the breathtaking Cliffs of Moher. Ireland's landscapes provide a fairytale backdrop for your love story. Traditional Irish music and dance can add a cultural touch to your celebration. The mild and temperate climate ensures comfortable outdoor ceremonies and receptions in stunning gardens or by the serene lakes. Irish pubs and cozy inns make for perfect venues to celebrate with family and friends. The average cost of a destination wedding in Ireland typically ranges from $20,000 to $35,000. Explore our gallery of picturesque Irish wedding images to envision your magical day in the Emerald Isle.",
+      "average_cost": "$20,000 - $35,000",
+      "images": {
+        "image_1": "https://i.ibb.co/zPkJ3YZ/ireland.jpg",
+        "image_2": "ireland_wedding_2.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "country_name": "Portugal",
+      "description": "Portugal, with its coastal charm, sun-kissed beaches, and rich cultural heritage, is an idyllic destination for your dream wedding. Whether you're looking for a beachfront ceremony, a historic city celebration, or a romantic vineyard wedding, Portugal has it all. Exchange vows with your toes in the sand on one of Portugal's picturesque beaches, or choose a quaint chapel for a more traditional ceremony. Portugal's cuisine is a treat for the senses, offering fresh seafood, flavorful wines, and delicious pastries. The country's Mediterranean climate ensures sunshine for most of the year, making it ideal for outdoor celebrations. From the historic streets of Lisbon to the vineyards of the Douro Valley, Portugal offers a diverse range of settings for your wedding day. The average cost of a destination wedding in Portugal typically ranges from $15,000 to $30,000. Take a look at our gallery of captivating Portuguese wedding images to imagine your perfect day in this charming coastal paradise.",
+      "average_cost": "$15,000 - $30,000",
+      "images": {
+        "image_1": "https://i.ibb.co/pW4GRWD/lisbon.jpg",
+        "image_2": "portugal_wedding_2.jpg"
+      }
+    }
+  ]
+  

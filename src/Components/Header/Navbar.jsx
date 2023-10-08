@@ -73,7 +73,7 @@ const Navbar = () => {
               <li>
                 
                 <NavLink
-                  to="/"
+                  to="/destination"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -87,7 +87,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/"
+                  to="/reviews"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -154,7 +154,7 @@ const Navbar = () => {
               <li>
                 {" "}
                 <NavLink
-                  to="/"
+                  to="/destination"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -168,7 +168,7 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/"
+                  to="/reviews"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
