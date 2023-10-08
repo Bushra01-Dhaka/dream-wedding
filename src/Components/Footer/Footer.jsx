@@ -21,10 +21,10 @@ const Footer = () => {
         </nav>
         <nav>
           <header className="footer-title">Company</header>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a href='/about' className="link link-hover">About us</a>
+          <a href='/destination' className="link link-hover">Destination</a>
+          <a href='/gallery' className="link link-hover">Gallery</a>
+          <a href='//reviews' className="link link-hover">Reviews</a>
         </nav>
         <nav>
           <header className="footer-title">Legal</header>

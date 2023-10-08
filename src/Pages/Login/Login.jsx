@@ -11,9 +11,8 @@ const Login = () => {
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
 
-
   const location = useLocation();
-  console.log("In login page location",location);
+  console.log("In login page location", location);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -31,8 +30,7 @@ const Login = () => {
       .then((result) => {
         console.log(result.user);
         //after login jekhane jabo
-        navigate(location?. state? location.state  : '/')
-
+        navigate(location?.state ? location.state : "/");
 
         setSuccess("Logged In Successfully.");
         swal("Logged In Successfully.", {
@@ -48,46 +46,41 @@ const Login = () => {
       });
   };
 
-  
-      //google sign in handle fnction
-      const handleGoogleSignIN = () =>
-      {
-        googleSignIn()
-        .then(result => {
-            console.log(result.user);
-            navigate(location?. state? location.state  : '/');
+  //google sign in handle fnction
+  const handleGoogleSignIN = () => {
+    googleSignIn()
+      .then((result) => {
+        console.log(result.user);
+        navigate(location?.state ? location.state : "/");
 
-            setSuccess("Logged In Successfully.");
-            swal("Logged In Successfully.", {
-              button: "Ok",
-            });
-
-        })
-        .catch(error => {
-            console.error(error);
-            setLogInError("Failed to Login!");
+        setSuccess("Logged In Successfully.");
+        swal("Logged In Successfully.", {
+          button: "Ok",
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+        setLogInError("Failed to Login!");
         swal("Logged in failed!", {
           button: "Ok",
         });
-        })
-      };
-
- 
+      });
+  };
 
   return (
     <div>
       <Navbar></Navbar>
 
-      <div className="relative h-[140vh] lg:[100vh]">
+      <div className="relative h-[140vh] lg:[100vh] bg-[#E7CBCB]">
         {/*amar Video Background */}
-        <video
+        {/* <video
           className="w-full h-full object-cover"
           autoPlay
           loop
           muted
           playsInline
-          src="./beauti.mp4"
-        />
+          src="https://screenpal.com/watch/c06jroV5pI5"
+        /> */}
         {/* black akta background diyehi */}
         <div className="absolute inset-0 bg-black opacity-60" />
 
@@ -138,17 +131,36 @@ const Login = () => {
                 </button>
               </div>
 
-             {/* google sign in */}
-              <div className="mt-8 mb-4"> 
+              {/* google sign in */}
+              {/* <div className="mt-8 mb-4">
                 <hr />
                 <h3 className="text-xl text-white text-center my-2">Or</h3>
                 <div className="mx-auto">
-                <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
-                <button onClick={handleGoogleSignIN} className="btn w-full mx-auto text-[#643843]  rounded ">Continue With Google</button>
+                  <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
+                  <button
+                    onClick={handleGoogleSignIN}
+                    className="btn w-full mx-auto text-[#643843]  rounded "
+                  >
+                    Continue With Google
+                  </button>
                 </div>
-            </div>
-
+              </div> */}
             </form>
+            <div className="md:w-3/2 lg:w-1/2 mx-auto">
+              <div className="mt-8 mb-4">
+                <hr className="border-b-1 border-[#643843]" />
+                <h3 className="text-xl text-white text-center my-2">Or</h3>
+                <div className="mx-auto">
+                  <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
+                  <button
+                    onClick={handleGoogleSignIN}
+                    className="btn w-full mx-auto border-2 border-[#643843] text-[#643843]  rounded "
+                  >
+                    Continue With Google
+                  </button>
+                </div>
+              </div>
+            </div>
 
             {logInError && (
               <p className=" my-2 text-sm text-center font-semibold text-red-700">
@@ -170,10 +182,6 @@ const Login = () => {
                 Register
               </Link>{" "}
             </p>
-
-            
-
-
           </div>
         </div>
       </div>
