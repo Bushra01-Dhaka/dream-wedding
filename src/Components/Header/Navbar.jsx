@@ -102,7 +102,7 @@ const Navbar = () => {
               <li>
                 {" "}
                 <NavLink
-                  to="/"
+                  to="/gallery"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -111,7 +111,7 @@ const Navbar = () => {
                       : ""
                   }
                 >
-                  Contact Us
+                  Gallery
                 </NavLink>
               </li>
             </ul>
@@ -183,7 +183,7 @@ const Navbar = () => {
               <li>
                
                 <NavLink
-                  to="/"
+                  to="/gallery"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? "pending"
@@ -192,7 +192,7 @@ const Navbar = () => {
                       : " text-red"
                   }
                 >
-                  Contact Us
+                  Gallery
                 </NavLink>
               </li>
           </ul>

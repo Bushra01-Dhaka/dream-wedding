@@ -42,7 +42,7 @@ const Login = () => {
       .catch((error) => {
         console.error(error);
         setLogInError("Failed to Login!");
-        swal("Logged in failed!", {
+        swal("Logged in failed! Please provide valid email & password.", {
           button: "Ok",
         });
       });

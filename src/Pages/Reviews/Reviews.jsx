@@ -28,7 +28,7 @@ const Reviews = () => {
         </div>
 
         <div className="container mx-auto">
-          <div data-Aos="fade-up" data-aos-delay="500"  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div data-Aos="fade-up" data-aos-delay="500"  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 lg:px-0">
             <div className="card h-[450px] bg-base-100 shadow-xl rounded">
               <figure>
                 <img className="h-[200px] p-4 rounded shadow-lg" src="https://i.ibb.co/2Kcjv57/photography2.jpg" alt="Shoes" />
