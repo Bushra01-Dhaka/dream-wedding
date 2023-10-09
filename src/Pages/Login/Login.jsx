@@ -135,7 +135,7 @@ const Login = () => {
 
             <div className="md:w-3/2 lg:w-1/2 mx-auto">
               <div className="mt-8 mb-4">
-                <hr className="border-b-1 border-[#643843]" />
+                <hr className="border-b-1 border-white" />
                 <h3 className="text-xl text-white text-center my-2">Or</h3>
                 <div className="mx-auto">
                   <FcGoogle className="relative top-9 text-xl left-[280px] md:left-[225px]"></FcGoogle>
