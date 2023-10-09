@@ -9,12 +9,14 @@ import Services from "../../Components/Services/Services";
 const Home = () => {
     return (
         <div className="container mx-auto">
-          <div className="h-screen">
+          <div className="">
           <Navbar></Navbar>
            <Banner></Banner>
           </div>
         
+          
           <About></About>
+         
           <Services></Services>
           <ContactUs></ContactUs>
           <Footer></Footer>

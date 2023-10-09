@@ -169,6 +169,11 @@ const Register = () => {
             </div> */}
         </form>
 
+        {registerError && (
+          <p className=" my-2 text-sm text-center font-semibold text-red-700">{registerError}</p>
+        )}
+        {success && <p className="my-2 text-sm font-semibold text-center text-green-600 t-4">{success}</p>}
+
          <div className="md:w-3/2 lg:w-1/2 mx-auto">
          <div className="mt-8 mb-4"> 
                 <hr className="border-b-1 border-[#643843]"/>
@@ -180,10 +185,7 @@ const Register = () => {
             </div>
          </div>
 
-        {registerError && (
-          <p className=" my-2 text-sm text-center font-semibold text-red-700">{registerError}</p>
-        )}
-        {success && <p className="my-2 text-sm font-semibold text-center text-green-600 t-4">{success}</p>}
+       
 
         <p className="my-4  text-center font-bold mb-8">
           {`Already have an account?`} Please{" "}

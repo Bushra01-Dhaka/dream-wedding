@@ -9,7 +9,7 @@ const About = () => {
   }, []);
   return (
     <div className="container mx-auto mt-24 ">
-      <h1 className="text-center text-2xl mb-6 font-medium text-[#99627A] ">
+      <h1 className="text-center text-2xl mb-12 font-medium text-[#99627A] ">
         You deserve the best. <br></br> And Your love deserve the most beautiful
         celebration
       </h1>
