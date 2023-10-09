@@ -1,8 +1,8 @@
 ## **"Dream Wedding"** -  a beautifully designed website for wedding event projects built using React Router.:bouquet:
 
-### [Dream Wedding Website Live Link](https://wedding-planner-810f8.web.app/?fbclid=IwAR0ocJGd1qVwEjLm-snB9gpJn7plAswMl4h3H6RxdFpgVJfY4GEd6uLc6-o):heart:
+### [Dream Wedding Website Live Link](https://wedding-planner-810f8.web.app/):heart:
 
-- <https://wedding-planner-810f8.web.app/?fbclid=IwAR0ocJGd1qVwEjLm-snB9gpJn7plAswMl4h3H6RxdFpgVJfY4GEd6uLc6-o/>
+- <https://wedding-planner-810f8.web.app//>
 ------------------------
 
 **"Dream Wedding"** built in React Webpage, a beautifully designed website for wedding event planning.This website creates user-friendly functionality for users.
